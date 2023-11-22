@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Acceso</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.31);
+            text-align: center;
+        }
+
+        .button {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        .login-form {
+            display: none;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-top: 10px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+        }
+
+        input[type="text"]::placeholder,
+        input[type="password"]::placeholder {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido</h1>
+        <button class="button" onclick="showUserLogin()">Acceso de Usuario</button>
+        <button class="button" onclick="showAdminLogin()">Acceso de Administrador</button>
+
+        <div class="login-form" id="user-login">
+            <h2>Acceso de Usuario</h2>
+            <input type="text" id="user-username" placeholder="Nombre de usuario">
+            <input type="password" id="user-password" placeholder="Contraseña">
+            <button class="button" onclick="userLogin()">Ingresar como Usuario</button>
+            <button class="button" onclick="loginWithoutCredentials()">Ingresar sin credenciales</button>
+        </div>
+
+        <div class="login-form" id="admin-login">
+            <h2>Acceso de Administrador</h2>
+            <input type="text" id="admin-username" placeholder="Nombre de usuario">
+            <input type="password" id="admin-password" placeholder="Contraseña">
+            <button class="button" onclick="adminLogin()">Ingresar como Administrador</button>
+            <button class="button" onclick="loginWithoutCredentials()">Ingresar sin credenciales</button>
+        </div>
+    </div>
+
+    <script>
+        function showUserLogin() {
+            document.getElementById('user-login').style.display = 'block';
+            document.getElementById('admin-login').style.display = 'none';
+        }
+
+        function showAdminLogin() {
+            document.getElementById('admin-login').style.display = 'block';
+            document.getElementById('user-login').style.display = 'none';
+        }
+
+        function userLogin() {
+            const username = document.getElementById('user-username').value;
+            const password = document.getElementById('user-password').value;
+            // Verificar las credenciales del usuario aquí (en un sistema real)
+            console.log(`Acceso de usuario: Usuario: ${username}, Contraseña: ${password}`);
+        }
+
+        function adminLogin() {
+            const username = document.getElementById('admin-username').value;
+            const password = document.getElementById('admin-password').value;
+            // Verificar las credenciales del administrador aquí (en un sistema real)
+            console.log(`Acceso de administrador: Usuario: ${username}, Contraseña: ${password}`);
+        }
+
+        function loginWithoutCredentials() {
+            // Ingresar sin credenciales (para fines de demostración)
+            console.log('Acceso sin credenciales');
+             window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

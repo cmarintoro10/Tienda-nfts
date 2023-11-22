@@ -1,0 +1,36 @@
+
+Catálogos de actores:
+
+para la Tienda de NFTs Demostrativa incluyen desarrolladores web, diseñadores de UI/UX, usuarios finales, administradores del sitio web, artistas digitales, colectores de NFT, compradores de NFT, propietarios de la plataforma, equipos de soporte al cliente y posibles inversores. Estos actores desempeñan roles y funciones clave en el proyecto y colaboran para garantizar el funcionamiento exitoso de la tienda de NFTs.
+
+casos de uso adicionales:
+
+Registro de Usuario:
+Descripción: Permite a los usuarios registrarse en la tienda demostrativa proporcionando información como nombre, dirección de correo electrónico y contraseña. Después de registrarse, los usuarios pueden iniciar sesión para acceder a funciones adicionales, como la compra de NFTs.
+
+Inicio de Sesión de Usuario:
+Descripción: Permite a los usuarios iniciar sesión en la tienda demostrativa proporcionando su dirección de correo electrónico y contraseña. Después del inicio de sesión, los usuarios pueden acceder a su perfil, ver su colección de NFTs y realizar compras.
+
+Ver Colección de NFTs del Usuario:
+Descripción: Permite a los usuarios ver todos los NFTs que han adquirido y que forman parte de su colección personal. Pueden explorar, organizar y gestionar sus NFTs en esta sección.
+
+Explorar NFTs Destacados:
+Descripción: Permite a los usuarios explorar una selección de NFTs destacados o populares en la tienda. Esto puede ayudar a los usuarios a descubrir nuevas adquisiciones interesantes.
+
+Agregar NFT a la Lista de Deseos:
+Descripción: Permite a los usuarios agregar un NFT a su lista de deseos para marcar NFTs que les interesen, pero que aún no están seguros de comprar. Esto facilita la futura búsqueda y compra de NFTs marcados.
+
+Realizar Ofertas en NFTs:
+Descripción: Permite a los usuarios realizar ofertas en NFTs específicos. Los usuarios pueden indicar el precio que están dispuestos a pagar por un NFT y, si el vendedor acepta la oferta, se realiza la transacción.
+
+Ver Historial de Compras de NFTs:
+Descripción: Permite a los usuarios ver un registro de todas las compras de NFTs que han realizado en la tienda, incluyendo detalles como la fecha de compra, el precio y el NFT adquirido.
+
+Gestión de Perfil de Usuario:
+Descripción: Permite a los usuarios actualizar su información de perfil, como cambiar la contraseña, la dirección de correo electrónico o la información de facturación.
+
+Compartir NFT en Redes Sociales:
+Descripción: Permite a los usuarios compartir sus NFTs o NFTs que les interesen en redes sociales como Twitter, Facebook o Instagram. Esto puede ayudar a promocionar la tienda y las obras de arte digitales.
+
+Contactar al Soporte Técnico:
+Descripción: Permite a los usuarios ponerse en contacto con el soporte técnico de la tienda para obtener asistencia, resolver problemas o hacer preguntas sobre la plataforma y las transacciones.
